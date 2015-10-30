@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="CakePHP" default="phpcs">
+        <target name="phpcs" description="Check codestyle (human readable format)">
+		<exec executable="phpcs">
+    			<arg line="--report=checkstyle
+			--extensions=php 
+			--report-file=out_checkstyle.xml
+			--standard=CakePHP
+		      ." />
+		  </exec>
+        </target>
+</project>
