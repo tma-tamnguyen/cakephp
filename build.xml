@@ -6,7 +6,7 @@
 			--extensions=php 
 			--report-file=out_checkstyle.xml
 			--standard=CakePHP
-		      index.php" />
+		      app" />
 		  </exec>
         </target>
 </project>
